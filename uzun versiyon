@@ -1,0 +1,22 @@
+meme_dict = {"OMG": "aman tanrım",
+             "IDC": "umrumda değil",
+             "IDEK": "ben bile bilmiyorum",
+             "BRB": "hemen döneceğim",
+             "ASAP": "ne kadar hızlı olabilirse",
+             "BFR": "ciddi ol",
+             "LOL": "komik bir şeye verilen cevap",
+             "CRINGE": "garip ya da utandırıcı bir şey",
+             "ROFL": "bir şakaya karşılık cevap",
+             "SHEESH": "onaylamamak",
+             "CREEPY": "korkunç",
+             "AGGRO": "agresifleşmek/sinirlenmek"}
+
+while True:
+    
+    word = input("Kelimeyi giriniz:")
+    
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+        
+    else:
+        print("Kelime bulunamadı.")
